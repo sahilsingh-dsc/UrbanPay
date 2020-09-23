@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Urban Pay</string>
+    <string name="loading_awesomeness">Loading awesomeness...</string>
+    <string name="code_notice">Please enter a 6 digit code received on phone number</string>
+</resources>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:id="@+id/framePhone"
+    tools:context=".auth.PhoneActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="300dp"
+            android:layout_height="100dp"
+            android:scaleType="centerCrop"
+            android:padding="16dp"
+            android:layout_marginTop="56dp"
+            android:src="@drawable/urbanpay_full_logo"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+            android:layout_gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Welcome!"
+                android:gravity="center"
+                android:textSize="25sp"
+                android:layout_marginBottom="8dp"
+                android:fontFamily="@font/montserrat_bold"
+                android:textColor="@color/colorTextH1"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Log your phone number in to get started."
+                android:gravity="center"
+                android:textSize="18sp"
+                android:layout_marginBottom="16dp"
+                android:fontFamily="@font/montserrat"
+                android:textColor="@color/colorTextH2"/>
+
+            <EditText
+                android:id="@+id/etPhoneNumber"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:hint="Phone number"
+                android:background="@drawable/bg_textbox"/>
+
+            <TextView
+                android:id="@+id/tvContinue"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:paddingStart="16dp"
+                android:paddingEnd="16dp"
+                android:textSize="16sp"
+                android:fontFamily="@font/montserrat_bold"
+                android:background="@drawable/bg_button"
+                android:textColor="@color/colorTextH3"
+                android:gravity="center"
+                android:layout_marginTop="16dp"
+                android:text="Continue"/>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <com.tylersuehr.socialtextview.SocialTextView
+        android:id="@+id/stvTerms"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="On continuing you will accept terms and conditions.\nhttps://urbanpay.com/terms"
+        android:gravity="center"
+        app:linkModes="url"
+        android:layout_gravity="bottom|center"
+        app:urlColor="@color/colorButton"
+        android:layout_marginBottom="32dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:fontFamily="@font/montserrat"
+        android:textColor="@color/colorTextH2"/>
+
+
+</FrameLayout>

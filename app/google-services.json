@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "90380059987",
+    "firebase_url": "https://urbanpay.firebaseio.com",
+    "project_id": "urbanpay",
+    "storage_bucket": "urbanpay.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:90380059987:android:066d7f2320a94a519dcda6",
+        "android_client_info": {
+          "package_name": "com.urbanpay.customer"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "90380059987-tlao8bur7f5fgd7tpj84u0l1rvrplk09.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDjInF1-USg65aenc3nRvXEwR1DRc9xCqE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "90380059987-tlao8bur7f5fgd7tpj84u0l1rvrplk09.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
